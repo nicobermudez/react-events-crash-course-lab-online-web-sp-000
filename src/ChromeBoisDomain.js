@@ -14,6 +14,9 @@ export default class ChromeBoisDomain extends Component {
      let y = event.clientY
      return drawChromeBoiAtCoords(x, y)
   }
+  handleKeyDown = (event) => {
+    
+  }
 
   /* TODO: Create an event handler which, when fired, invokes the provided
    * `toggleCycling` function with no arguments. Don't forget the click event
