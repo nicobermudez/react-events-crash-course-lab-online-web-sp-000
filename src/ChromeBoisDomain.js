@@ -15,7 +15,9 @@ export default class ChromeBoisDomain extends Component {
      return drawChromeBoiAtCoords(x, y)
   }
   handleKeyDown = (event) => {
-    if(event)
+    if(event.key === 'a') {
+      
+    }
   }
 
   /* TODO: Create an event handler which, when fired, invokes the provided
