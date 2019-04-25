@@ -12,7 +12,7 @@ export default class ChromeBoisDomain extends Component {
      */
      let x = this.screenX
      let y = this.screenY
-     drawChromeBoiAtCoords(x, y)
+     return drawChromeBoiAtCoords(x, y)
   }
 
   /* TODO: Create an event handler which, when fired, invokes the provided
