@@ -17,6 +17,8 @@ export default class ChromeBoisDomain extends Component {
   handleKeyDown = (event) => {
     if(event.key === 'a') {
       
+    } else if(event.key === 's') {
+      
     }
   }
 
